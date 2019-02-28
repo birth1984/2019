@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using UnityEngine.Profiling;
 
 
 //Unity3D研究院编辑器之自定义窗口显示文件夹结构（二十）
@@ -117,7 +118,7 @@ public class FolderInspector : Editor
             }
             data.isSelected = true;
             selectData = data;
-            Debug.Log(data.assetPath);
+            Debug.Log("DrawGUIData " + data.assetPath);                      
         }
     }
 
