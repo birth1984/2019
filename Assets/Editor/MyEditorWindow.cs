@@ -7,6 +7,8 @@ using System;
 using UnityEditor.ProjectWindowCallback;
 using System.Text.RegularExpressions;
 using System.Text;
+using System.Reflection;
+using UnityEngine.Profiling;
 
 public class MyEditorWindow : EditorWindow
 {
@@ -204,7 +206,7 @@ public class MyEditorWindow : EditorWindow
         {
             if(trans.name == "GameObject(2)")
             {
-                Debug.Log(trans.parent.name);
+                Debug.Log("GameObject(2)" + trans.parent.name);
                 trans.gameObject.AddComponent<BoxCollider>();
                 return;
             }
@@ -352,12 +354,22 @@ public class MyEditorWindow : EditorWindow
         }
     }
 
-
-    public static string ReadPrefabText()
+    [MenuItem("BirthEditor/TextureMemoryViewer")]
+    public static void MemoryViewer()
     {
-        string context = File.ReadAllText("Assets/Resources/PrefabsGame.prefab");
-        return context;
+        Texture target = Selection.activeObject as Texture;
+
+        Type type = Assembly.Load("UnityEditor.dll").GetType("UnityEditor.TextureUtil");
+
+        MethodInfo methodInfo = type.GetMethod("GetStorageMemorySize", BindingFlags.Static | BindingFlags.Instance | BindingFlags.Public);
+
+        Debug.Log("内存占用：" + EditorUtility.FormatBytes(Profiler.GetRuntimeMemorySize(Selection.activeObject)));
+        Debug.Log("硬盘占用：" + EditorUtility.FormatBytes((int)methodInfo.Invoke(null, new object[] { target })));
     }
+
+
+
+
     private string text;
     private string prefabContext;
 
