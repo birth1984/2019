@@ -61,13 +61,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CameraExtension.cs" />
-    <Compile Include="Assets\Editor\CustomInspector.cs" />
+    <Compile Include="Assets\Editor\CustomeDefaultAssetInspector.cs" />
+    <Compile Include="Assets\Editor\CustomeSceneAssetInspector.cs" />
     <Compile Include="Assets\Editor\FolderInspector.cs" />
     <Compile Include="Assets\Editor\MyAssetHandler.cs" />
     <Compile Include="Assets\Editor\MyEditor.cs" />
     <Compile Include="Assets\Editor\MyEditorScene.cs" />
     <Compile Include="Assets\Editor\MyEditorWindow.cs" />
     <Compile Include="Assets\Editor\MyTestDrawer.cs" />
+    <Compile Include="Assets\Editor\RectTransformInspector.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Code/Unity/2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
