@@ -84,11 +84,11 @@ Material:
     - _GlossyReflections: 1
     - _InvFade: 0.89
     - _LightingEnabled: 1
-    - _MaxX: 0.076029986
-    - _MaxY: -0.022257611
+    - _MaxX: 30.618443
+    - _MaxY: 1.1925098
     - _Metallic: 0
-    - _MinX: 0.06560937
-    - _MinY: -0.034398127
+    - _MinX: -0.020958439
+    - _MinY: -0.0074902195
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
