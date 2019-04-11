@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class UIMask : Mask  
 {
+    public float m_contentScale;
     // Start is called before the first frame update
     void Start()
     {       
@@ -18,10 +19,10 @@ public class UIMask : Mask
         float s2 = (float)width / (float)height;
 
         //目标分辨率小于 960X640的 需要计算缩放比例
-        float contentScale = 1f;
+        m_contentScale = 1f;
         if (s1 > s2)
         {
-            contentScale = s1 / s2;
+            m_contentScale = s1 / s2;
         }
         Canvas canvas = GameObject.Find("MainCanvas").GetComponent<Canvas>();
         Vector2 pos;
@@ -33,23 +34,27 @@ public class UIMask : Mask
             Vector3[] corners = new Vector3[4];           
             rectTransform.GetWorldCorners(corners);
             float minX, minY, maxX, maxY;
-            minX = corners[0].x;
-            minY = corners[0].y;
-            maxX = corners[2].x;
-            maxY = corners[2].y;
+            //minX = corners[0].x;
+            //minY = corners[0].y;
+            //maxX = corners[2].x;
+            //maxY = corners[2].y;
 
             //minX = rectTransform.rect.x + pos.x;
             //minY = rectTransform.rect.y + pos.y;
             //maxX = minX + rectTransform.rect.width;
             //maxY = minY + rectTransform.rect.height;
+            minX = transform.position.x;
+            minY = transform.position.y; 
+            maxX = minX + rectTransform.rect.width; 
+            maxY = minY + rectTransform.rect.height;
 
             //这里 100 是因为ugui默认的缩放比例是100 你也可以去改这个值，但是我觉得最好别改。
             foreach (ParticleSystemRenderer psr in particlesSystems)
             {
-                psr.sharedMaterial.SetFloat("_MinX", minX / 100 / contentScale);
-                psr.sharedMaterial.SetFloat("_MinY", minY / 100 / contentScale);
-                psr.sharedMaterial.SetFloat("_MaxX", maxX / 100 / contentScale);
-                psr.sharedMaterial.SetFloat("_MaxY", maxY / 100 / contentScale);
+                psr.sharedMaterial.SetFloat("_MinX", minX / 100 / m_contentScale);
+                psr.sharedMaterial.SetFloat("_MinY", minY / 100 / m_contentScale);
+                psr.sharedMaterial.SetFloat("_MaxX", maxX / 100 / m_contentScale);
+                psr.sharedMaterial.SetFloat("_MaxY", maxY / 100 / m_contentScale);
             }
 
         }
