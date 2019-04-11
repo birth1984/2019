@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RunPropertyAttributeDrawer : MonoBehaviour
 {
-    [MyTestAttribute(100,0)]
+    [MyIntAttribute(100,0)]
     public int intvalue = 0;
     // Start is called before the first frame update
     void Start()
