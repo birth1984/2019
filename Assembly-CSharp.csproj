@@ -83,6 +83,10 @@
     <Compile Include="Assets\Scenes\MyUGUI\Scripts\EventTriggerListener.cs" />
     <Compile Include="Assets\Scenes\MyUGUI\Scripts\ImagePlus.cs" />
     <Compile Include="Assets\Scenes\MyUGUI\Scripts\MyFace.cs" />
+    <Compile Include="Assets\Scenes\MyUGUI\Scripts\MyScrollbar.cs" />
+    <Compile Include="Assets\Scenes\MyUGUI\Scripts\MySlider.cs" />
+    <Compile Include="Assets\Scenes\MyUGUI\Scripts\MyToggle.cs" />
+    <Compile Include="Assets\Scenes\MyUGUI\Scripts\MyToggleGroup.cs" />
     <Compile Include="Assets\Scenes\MyUGUI\Scripts\SpritAnimationCreator.cs" />
     <Compile Include="Assets\Scenes\MyUGUI\Scripts\TextGradientColor.cs" />
     <Compile Include="Assets\Scenes\MyUGUI\Scripts\UIDepth.cs" />
@@ -226,7 +230,9 @@
     <None Include="Assets\Scenes\MyUGUI\Shaders\Default.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\Scenes\TestMask\DepthMaskComplex.shader" />
     <None Include="Assets\DOTween\readme.txt" />
+    <None Include="Assets\Scenes\TestMask\Clip.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
