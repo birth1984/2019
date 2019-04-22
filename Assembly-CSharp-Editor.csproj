@@ -69,6 +69,8 @@
     <Compile Include="Assets\Editor\MyEditorScene.cs" />
     <Compile Include="Assets\Editor\MyEditorWindow.cs" />
     <Compile Include="Assets\Editor\MyTestDrawer.cs" />
+    <Compile Include="Assets\Editor\MyToggleEditor.cs" />
+    <Compile Include="Assets\Editor\MyToggleGroupEditor.cs" />
     <Compile Include="Assets\Editor\RectTransformInspector.cs" />
     <Compile Include="Assets\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
     <Compile Include="Assets\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
