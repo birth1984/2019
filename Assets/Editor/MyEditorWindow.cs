@@ -332,19 +332,19 @@ public class MyEditorWindow : EditorWindow
     [InitializeOnLoadMethod]
     static void StartInitializeOnLoadMethod()
     {
-        EditorApplication.hierarchyWindowItemOnGUI += OnHierarchyGUI;
+        //EditorApplication.hierarchyWindowItemOnGUI += OnHierarchyGUI;
     }
 
-    static void OnHierarchyGUI(int instanceID , Rect selectionRect)
+    static void OnHierarchyGUI(int instanceID, Rect selectionRect)
     {
-        if(Event.current != null && 
-            selectionRect.Contains(Event.current.mousePosition) && 
+        if (Event.current != null &&
+            selectionRect.Contains(Event.current.mousePosition) &&
             Event.current.button == 1 &&
             Event.current.type <= EventType.MouseUp)
         {
             GameObject selectedGameObject = EditorUtility.InstanceIDToObject(instanceID) as GameObject;
 
-            if(selectedGameObject)
+            if (selectedGameObject)
             {
                 Vector2 mousePosition = Event.current.mousePosition;
 
@@ -367,7 +367,105 @@ public class MyEditorWindow : EditorWindow
         Debug.Log("硬盘占用：" + EditorUtility.FormatBytes((int)methodInfo.Invoke(null, new object[] { target })));
     }
 
+    //UGUI研究院之全面理解图集与使用（三）
+    [MenuItem("BirthEditor/Atlas Maker/Make Sprites")]
+    static void MakeSprites()
+    {
+        string spriteDir = Application.dataPath + "/Resources/Prefabs/Sprites";
+        
+        if(!Directory.Exists(spriteDir))
+        {
+            Directory.CreateDirectory(spriteDir);
+            Debug.Log("create spriteDir:" + spriteDir);
+        }
+        
+        DirectoryInfo rootDirInfo = new DirectoryInfo(Application.dataPath + "/Atlas");
 
+        List<string> strs = new List<string>();
+        string tempDir;
+
+        foreach (FileInfo pngFile in rootDirInfo.GetFiles("*.png", SearchOption.AllDirectories))
+        {
+            tempDir = spriteDir; ;
+            string allPath = pngFile.FullName;
+            string assetPath = allPath.Substring(allPath.IndexOf("Assets"));
+            Sprite spt = AssetDatabase.LoadAssetAtPath(assetPath, typeof(Sprite)) as Sprite;
+            if (spt == null)
+            {
+                Debug.Log("bug!!!" + assetPath );
+                continue;
+            }
+                
+            GameObject go = new GameObject(spt.name);
+            go.AddComponent<SpriteRenderer>().sprite = spt;
+            FilePathSubString(assetPath, strs);
+            for (int i = 2; i < strs.Count; i++)
+            {
+                tempDir += "/" + strs[i];
+            }
+            if (!Directory.Exists(tempDir))
+            {
+                Directory.CreateDirectory(tempDir);
+            }
+            allPath = tempDir + "/" + spt.name + ".prefab";
+            string prefabPath = allPath.Substring(allPath.IndexOf("Assets"));
+            strs.Clear();
+            PrefabUtility.CreatePrefab(prefabPath, go);
+            GameObject.DestroyImmediate(go);
+
+            Debug.Log("+++++++++++++++++ Make Sprites End 100% ++++++++++++++++++");
+        }
+    } 
+
+    static void FilePathSubString(string filePath , List<string> arr)
+    {
+        int index = filePath.IndexOf("\\");
+        if (index > 0)
+        {
+            arr.Add( filePath.Substring(0, index) ) ;            
+            filePath = filePath.Substring(index + 1);
+            FilePathSubString(filePath, arr);
+        }
+        //else
+        //{
+        //    arr.Add(filePath);
+        //}
+    }
+
+    
+    [MenuItem("BirthEditor/Atlas Maker/Clean Sprites")]
+    static void SpriteCleaner()
+    {
+        string spriteDir = Application.dataPath + "/Resources/Prefabs/Sprites";
+        
+
+        if (!Directory.Exists(spriteDir))
+            return;
+
+        DirectoryInfo rootDirInfo = new DirectoryInfo(spriteDir);
+
+        RemoveAllFiles(rootDirInfo);
+
+        Debug.Log("+++++++++++++++++ Clean Sprites End 100% ++++++++++++++++++");
+    }
+
+    static void RemoveAllFiles(DirectoryInfo rootDirInfo)
+    {   
+        if(rootDirInfo.GetDirectories().Length > 0)
+        {
+            foreach (DirectoryInfo rootDir in rootDirInfo.GetDirectories())
+            {
+                //Debug.Log(rootDir.Name + " : " + rootDir.FullName);
+                RemoveAllFiles(rootDir);
+                rootDir.Delete();
+            }
+        }       
+        foreach (FileInfo file in rootDirInfo.GetFiles())
+        {
+            //Debug.Log(file.Name + " : " + file.FullName);
+            file.Delete();
+        }
+    }
 
 
     private string text;

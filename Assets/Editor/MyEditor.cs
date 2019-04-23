@@ -20,6 +20,7 @@ public class MyEditor : Editor
         test.MRectValue = EditorGUILayout.RectField("窗口坐标", test.MRectValue);
 
         test.Texture = EditorGUILayout.ObjectField("增加一张贴图", test.Texture, typeof(Texture), true) as Texture;
+
     }
 
     [InitializeOnLoadMethod]

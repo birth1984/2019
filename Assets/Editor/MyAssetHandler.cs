@@ -5,8 +5,24 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 using System.IO;
 
+
 public class MyAssetHandler 
 {
+    //Unity3D研究院监听Unity编辑器关闭事件（三十一）
+    [InitializeOnLoadMethod]
+    static void InitializeOnLoadMethod()
+    {
+        //EditorApplication.wantsToQuit -= Quit;
+        //EditorApplication.wantsToQuit += Quit;
+    }
+
+    static bool Quit()
+    {
+        EditorUtility.DisplayDialog("我就是不让你关闭Unity", "我就是不让你关闭Unity \n我就是不让你关闭Unity \n我就是不让你关闭Unity \n我就是不让你关闭Unity \n我就是不让你关闭Unity", "呵呵");
+        return false;
+    }
+
+
     [OnOpenAssetAttribute(1)]
     public static bool step1(int instanceID , int line)
     {

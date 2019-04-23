@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 
 public class MyFace : MonoBehaviour
@@ -27,9 +29,16 @@ public class MyFace : MonoBehaviour
     void Start()
     {
         m_currAlphaValue = m_image.canvasRenderer.GetAlpha();
-    }
 
-    // Update is called once per frame
+        SpriteAtlas atlas = AssetDatabase.LoadAssetAtPath<SpriteAtlas>("Assets/SpriteAtlas/spriteAtlasHeroIcon.spriteatlas");
+        Sprite sprite = atlas.GetSprite("hero_card_1");
+        if (sprite != null)
+        {
+            //GetComponent<SpriteRenderer>().sprite = sprite;
+            m_image.sprite = sprite;
+        }
+    }
+        // Update is called once per frame
     void Update()
     {
         if(m_updateAlpha)
