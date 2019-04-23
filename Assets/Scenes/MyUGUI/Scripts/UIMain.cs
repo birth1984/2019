@@ -34,7 +34,7 @@ public class UIMain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_spriteTest = GameObject.Find("testSprite").GetComponent<SpriteRenderer>();
+        m_spriteTest = GameObject.Find("RawImage").GetComponent<SpriteRenderer>();
         m_Atlas = (SpriteAtlas)Resources.Load("spriteAtlasHeroIcon");
         Sprite changeSprite = m_Atlas.GetSprite("hero_card_11");
         m_spriteTest.sprite = changeSprite;

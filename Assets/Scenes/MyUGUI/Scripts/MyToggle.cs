@@ -16,7 +16,8 @@ public class MyToggle : MonoBehaviour
     private Text m_label;
 
     private MyToggleGroup m_group;
-    private MyToggleData m_groupData;
+    [SerializeField]
+    private MyToggleData m_myToggleData;
 
     public Vector3 m_pos;
     public Vector3 m_posVisable;
@@ -30,28 +31,23 @@ public class MyToggle : MonoBehaviour
         }
         set
         {
-            m_groupData.lable = value;
+            //m_myToggleData.lable = value;
             m_label.text = value;
         }
     }
 
     public MyToggleGroup Group { get => m_group; set => m_group = value; }
-    public MyToggleData GroupData { get => m_groupData; set => m_groupData = value; }
+    public MyToggleData ToggleData { get => m_myToggleData; set => m_myToggleData = value; }
     public Toggle Toggle { get => m_toggle; set => m_toggle = value; }
 
 
     // Start is called before the first frame update
     void Start()
     {      
-        runInEditMode = true;
-        m_label = GetComponentInChildren<Text>();
-        LabelText = m_label.text;
-
+        runInEditMode = true;      
         m_pos = m_normal.transform.position;
         m_posVisable = new Vector3(m_pos.x, m_pos.y + 10000, m_pos.z);
-        Toggle.onValueChanged.AddListener(OnToggle);
-        Toggle.isOn = m_groupData.click;
-        IsOn(Toggle.isOn);
+        Toggle.onValueChanged.AddListener(OnToggle);        
     }
 
     // Update is called once per frame
@@ -65,7 +61,7 @@ public class MyToggle : MonoBehaviour
         Debug.Log("Toggle value is " + selected.ToString());
         IsOn(selected);
     }
-    private void IsOn(bool ison)
+    public void IsOn(bool ison)
     {
         if (ison)
         {
@@ -75,15 +71,14 @@ public class MyToggle : MonoBehaviour
         {
             m_selected.transform.position = m_posVisable;
         }
+        m_toggle.isOn = ison;
     }
 
     public void FreshData()
     {
-        Debug.Log("FreshSelect:" + m_groupData.lable + " " + m_groupData.click);
-        Toggle.isOn = m_groupData.click;
-        IsOn(Toggle.isOn);
-
-        m_label.text = LabelText = m_groupData.lable;
+        Debug.Log("FreshSelect:" + m_myToggleData.lable + " " + m_myToggleData.click);
+        IsOn(m_myToggleData.click);
+        m_label.text = LabelText = m_myToggleData.lable;
     }
 
 }

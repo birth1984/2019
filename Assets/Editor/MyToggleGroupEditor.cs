@@ -13,6 +13,10 @@ public class MyToggleGroupEditor : Editor
         base.OnInspectorGUI();
 
         MyToggleGroup toggleGroup = (MyToggleGroup)target;
+        //foreach (MyToggleData data in toggleGroup.MyToggleDatas)
+        //{
+        //    data.myToggle.FreshData();
+        //}
 
         if (GUILayout.Button("保存"))
         {
@@ -22,5 +26,7 @@ public class MyToggleGroupEditor : Editor
                 data.myToggle.FreshData();
             }
         }
+
+
     }
 }

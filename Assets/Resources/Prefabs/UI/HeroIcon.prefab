@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5757053395513015874}
+  - component: {fileID: 3146638047533839501}
   m_Layer: 5
   m_Name: HeroIcon
   m_TagString: Untagged
@@ -38,6 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3146638047533839501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138394384650928038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b30b23218dd3854496a07f6f2fd9efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bg: {fileID: 4928429325845503552}
+  m_icon: {fileID: 2100351705250823637}
+  m_state: {fileID: 2100351703742932873}
 --- !u!1 &2100351703742932875
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +119,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 92e68b254110f90459aab33daeade040, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

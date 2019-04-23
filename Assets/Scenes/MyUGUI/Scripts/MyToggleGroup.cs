@@ -15,16 +15,28 @@ public class MyToggleGroup : MonoBehaviour
     void Start()
     {
         //m_group.allowSwitchOff = true;
-        m_toggles = GetComponentsInChildren<Toggle>();
-        foreach(Toggle element in m_toggles)
+        //m_toggles = GetComponentsInChildren<Toggle>();
+        //Log("MyToggleDatas size " + MyToggleDatas.Count);
+        //foreach (Toggle element in m_toggles)
+        //{
+        //    Debug.Log("My Toggle Group " + element.GetComponentInChildren<Text>().text + " " + element.name);
+            //MyToggleData data = new MyToggleData();
+            //data.myToggle.ToggleData = data;
+            //element.isOn = data.click;
+            //data.myToggle.Group = this;
+            //data.lable = element.GetComponentInChildren<Text>().text;
+            //data.myToggle = element.GetComponentInChildren<MyToggle>();
+            
+            
+            //MyToggleDatas.Add(data);
+            //Debug.Log("MyToggleDatas size " + MyToggleDatas.Count);
+        //}
+
+        foreach(MyToggleData data in m_myToggleDatas)
         {
-            Debug.Log("My Toggle Group " + element.GetComponentInChildren<Text>().text + " " + element.name);
-            MyToggleData data = new MyToggleData();
-            data.lable = element.GetComponentInChildren<Text>().text;
-            data.myToggle = element.GetComponentInChildren<MyToggle>();
-            data.myToggle.GroupData = data;
-            data.myToggle.Group = this;
-            MyToggleDatas.Add(data);
+            data.myToggle.ToggleData = data;
+            data.myToggle.Toggle.isOn = data.click;
+            data.myToggle.LabelText = data.lable; 
         }
     }
 

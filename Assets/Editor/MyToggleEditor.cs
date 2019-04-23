@@ -15,10 +15,11 @@ public class MyToggleEditor : Editor
         MyToggle toggle = (MyToggle)target; 
         
         toggle.LabelText = EditorGUILayout.TextField("文本显示", toggle.LabelText);
-        toggle.GroupData.lable = toggle.LabelText;
+        toggle.ToggleData.lable = toggle.LabelText;
         
         toggle.Toggle.isOn = EditorGUILayout.Toggle("Selectde", toggle.Toggle.isOn);
-        toggle.GroupData.click = toggle.Toggle.isOn;        
+        //toggle.ToggleData.click = toggle.Toggle.isOn;
+        toggle.IsOn(toggle.Toggle.isOn);
     }
 }
 
