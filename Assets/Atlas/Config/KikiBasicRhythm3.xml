@@ -1,0 +1,65 @@
+<Config>
+  <Rhythm Id="1" Name="西红柿炒蛋">
+    <Beat Bar="0" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="0" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="0" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="1" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="1" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="2" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="2" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="2" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="3" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="3" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+  </Rhythm>
+  <Rhythm Id="2" Name="Sinte Basic Rhythm">
+    <Beat Bar="0" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="0" Pos="0.25" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="0" Pos="0.5" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="0" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="1" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="1" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="2" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="2" Pos="0.5" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="2" Pos="0.75" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="3" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="3" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+  </Rhythm>
+  <Rhythm Id="3" Name="XXX Basic Rhythm 1">
+    <Beat Bar="0" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="0" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="0" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="1" Pos="0" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="1" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="2" Pos="0" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="2" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="2" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="3" Pos="0" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="3" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+  </Rhythm>
+  <Rhythm Id="4" Name="XXX Basic Rhythm 2">
+    <Beat Bar="0" Pos="0" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="0" Pos="0.25" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="0" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="0" Pos="0.75" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="1" Pos="0" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="1" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="2" Pos="0" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="2" Pos="0.25" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="2" Pos="0.5" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="2" Pos="0.75" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="3" Pos="0" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="3" Pos="0.5" SoundType="BEAT_DA" Ya="0" />
+  </Rhythm>
+  <Rhythm Id="5" Name="XXX Basic Rhythm 2">
+    <Beat Bar="0" Pos="0" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="0" Pos="0.5" SoundType="BEAT_NONE" Ya="0" />
+    <Beat Bar="0" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="1" Pos="0" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="1" Pos="0.5" SoundType="BEAT_DONG" Ya="0" />
+    <Beat Bar="2" Pos="0" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="2" Pos="0.5" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="2" Pos="0.75" SoundType="BEAT_DU" Ya="0" />
+    <Beat Bar="3" Pos="0" SoundType="BEAT_DA" Ya="0" />
+    <Beat Bar="3" Pos="0.5" SoundType="BEAT_DONG" Ya="0" />
+  </Rhythm>
+</Config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<Rhythm Id="1" Name="基本节奏">
+		<Beat Bar="1" Pos="0" SoundType="1" Ya="0"/>	
+		<Beat Bar="2" Pos="0" SoundType="1" Ya="0"/>
+		<Beat Bar="3" Pos="0" SoundType="1" Ya="0"/>
+		<Beat Bar="4" Pos="0" SoundType="1" Ya="0"/>
+	</Rhythm>  
+</Config>
+
+<!-- 
+  Id//ID 
+  SoundType // 1低音 2中音 3高音 4空
+  Ya // 是否有哑音 0否 1是
+-->
