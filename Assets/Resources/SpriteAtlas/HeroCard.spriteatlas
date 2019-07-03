@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeroCard
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 771f9175a586ef347b0bd53f309a54a0, type: 3}
+    - {fileID: 21300000, guid: f84ce88c6571f5e4e99f0381088e7514, type: 3}
+    - {fileID: 21300000, guid: 9622a86c72ab8bb4fbff4d2f4c2c2195, type: 3}
+    - {fileID: 21300000, guid: a08f1da300596df47a93a7ffe2a82d6e, type: 3}
+    - {fileID: 21300000, guid: dd73729563afae24ba03ec8d95335d93, type: 3}
+    - {fileID: 21300000, guid: 41a9637aba96cbe44bca3b8d614fd252, type: 3}
+    - {fileID: 21300000, guid: de6b7a5ca7de3e84882cef85b120c39b, type: 3}
+    - {fileID: 21300000, guid: 7c90ca8302304964e9cb2661f11aca26, type: 3}
+    - {fileID: 21300000, guid: 7910e00f4962188498a8f42b4c9ee9b0, type: 3}
+    - {fileID: 21300000, guid: 63132a337d518a948a004e489495ce35, type: 3}
+    - {fileID: 21300000, guid: 6367e77b4ab847844bd21ca8d5c73843, type: 3}
+    - {fileID: 21300000, guid: 31465fc02f106b940bb7eba56a40f2f3, type: 3}
+    - {fileID: 21300000, guid: fa9d8d96fe37dac4cba4ce0ed2bed321, type: 3}
+    - {fileID: 21300000, guid: 641430758bb040f4c83fdb543fdc4a60, type: 3}
+    - {fileID: 21300000, guid: f7d2623a58e8b2447a5a2c90020f4129, type: 3}
+    - {fileID: 21300000, guid: 05357c8d88363b142880cabf5b2ef9d7, type: 3}
+    - {fileID: 21300000, guid: 2de99eaa0f43be34e861d6a609678f91, type: 3}
+    - {fileID: 21300000, guid: daab5a7a8d41c004b9dc26f2953e1fbe, type: 3}
+    - {fileID: 21300000, guid: 1f02e75e55b0a2041a96f2763bdaff47, type: 3}
+    totalSpriteSurfaceArea: 2490368
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 31465fc02f106b940bb7eba56a40f2f3, type: 3}
+  - {fileID: 21300000, guid: 63132a337d518a948a004e489495ce35, type: 3}
+  - {fileID: 21300000, guid: 7c90ca8302304964e9cb2661f11aca26, type: 3}
+  - {fileID: 21300000, guid: a08f1da300596df47a93a7ffe2a82d6e, type: 3}
+  - {fileID: 21300000, guid: 641430758bb040f4c83fdb543fdc4a60, type: 3}
+  - {fileID: 21300000, guid: 771f9175a586ef347b0bd53f309a54a0, type: 3}
+  - {fileID: 21300000, guid: dd73729563afae24ba03ec8d95335d93, type: 3}
+  - {fileID: 21300000, guid: fa9d8d96fe37dac4cba4ce0ed2bed321, type: 3}
+  - {fileID: 21300000, guid: f7d2623a58e8b2447a5a2c90020f4129, type: 3}
+  - {fileID: 21300000, guid: 41a9637aba96cbe44bca3b8d614fd252, type: 3}
+  - {fileID: 21300000, guid: daab5a7a8d41c004b9dc26f2953e1fbe, type: 3}
+  - {fileID: 21300000, guid: 2de99eaa0f43be34e861d6a609678f91, type: 3}
+  - {fileID: 21300000, guid: 6367e77b4ab847844bd21ca8d5c73843, type: 3}
+  - {fileID: 21300000, guid: de6b7a5ca7de3e84882cef85b120c39b, type: 3}
+  - {fileID: 21300000, guid: 9622a86c72ab8bb4fbff4d2f4c2c2195, type: 3}
+  - {fileID: 21300000, guid: f84ce88c6571f5e4e99f0381088e7514, type: 3}
+  - {fileID: 21300000, guid: 05357c8d88363b142880cabf5b2ef9d7, type: 3}
+  - {fileID: 21300000, guid: 1f02e75e55b0a2041a96f2763bdaff47, type: 3}
+  - {fileID: 21300000, guid: 7910e00f4962188498a8f42b4c9ee9b0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hero_card_13
+  - hero_card_11
+  - hero_card_9
+  - hero_card_4
+  - hero_card_15
+  - hero_card_1
+  - hero_card_6
+  - hero_card_31
+  - hero_card_16
+  - hero_card_7
+  - hero_card_19
+  - hero_card_18
+  - hero_card_12
+  - hero_card_8
+  - hero_card_3
+  - hero_card_2
+  - hero_card_17
+  - hero_card_20
+  - hero_card_10
+  m_Tag: HeroCard
+  m_IsVariant: 0
