@@ -30,8 +30,9 @@ public class MyFace : MonoBehaviour
     {
         m_currAlphaValue = m_image.canvasRenderer.GetAlpha();
 
-        SpriteAtlas atlas = AssetDatabase.LoadAssetAtPath<SpriteAtlas>("Assets/SpriteAtlas/spriteAtlasHeroIcon.spriteatlas");
-        Sprite sprite = atlas.GetSprite("hero_card_1");
+        //SpriteAtlas atlas = AssetDatabase.LoadAssetAtPath<SpriteAtlas>("Assets/SpriteAtlas/spriteAtlasHeroIcon.spriteatlas");
+        
+        Sprite sprite = MyAtlasManager.Instance().GetIconSprite("hero_icon_1"); //atlas.GetSprite("hero_card_1");
         if (sprite != null)
         {
             //GetComponent<SpriteRenderer>().sprite = sprite;

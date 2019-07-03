@@ -19,9 +19,9 @@ public class MyHeroIcon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_bg.sprite     = MyAtlasManager.Instance().GetHeroIconSprite("hero_base_list_blank");
-        m_icon.sprite   = MyAtlasManager.Instance().GetHeroIconSprite("hero_card_1");
-        m_state.sprite  = MyAtlasManager.Instance().GetHeroIconSprite("hero_card_lv_label_blue");
+        m_bg.sprite     = MyAtlasManager.Instance().GetIconSprite("hero_base_list_base_blank");
+        m_icon.sprite   = MyAtlasManager.Instance().GetIconSprite("hero_icon_31");
+        m_state.sprite  = MyAtlasManager.Instance().GetIconSprite("hero_card_lv_label_purple");
     }
 
     // Update is called once per frame

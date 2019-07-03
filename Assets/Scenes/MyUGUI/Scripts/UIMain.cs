@@ -35,7 +35,7 @@ public class UIMain : MonoBehaviour
     void Start()
     {
         m_spriteTest = GameObject.Find("RawImage").GetComponent<SpriteRenderer>();
-        m_Atlas = (SpriteAtlas)Resources.Load("spriteAtlasHeroIcon");
+        m_Atlas = (SpriteAtlas)Resources.Load("spriteAtlas/HeroCard");
         Sprite changeSprite = m_Atlas.GetSprite("hero_card_11");
         m_spriteTest.sprite = changeSprite;
 
@@ -65,8 +65,8 @@ public class UIMain : MonoBehaviour
         //};
 
         DOTween.Init();
-        m_heroIcon = CreateImage(m_mainCanvas.transform , LoadSprite("iconSprite", "hero_card_3"));
-        m_heroIcon1 = CreateImage(m_mainCanvas.transform , LoadSprite("iconSprite", "hero_card_4"));
+        m_heroIcon = CreateImage(m_mainCanvas.transform , LoadSprite("iconSprite", "hero_icon_3"));
+        m_heroIcon1 = CreateImage(m_mainCanvas.transform , LoadSprite("iconSprite", "hero_icon_4"));
 
         
     }
@@ -119,7 +119,9 @@ public class UIMain : MonoBehaviour
 
     private Sprite LoadSprite(string fileName , string spriteName)
     {
-        return Resources.Load<GameObject>("Prefabs/Sprites/" + fileName + "/" + spriteName).GetComponent<SpriteRenderer>().sprite ;
+        Sprite spt = Resources.Load<GameObject>("Prefabs/Sprites/" + fileName + "/" + spriteName).GetComponent<SpriteRenderer>().sprite;
+        Debug.Log("LoadSprite: fileName: " + fileName + " spriteName " + spriteName + "   "+spt);
+        return spt;
     }
 
     public void OnClick()

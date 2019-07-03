@@ -44,7 +44,7 @@ public class MyToggle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {      
-        runInEditMode = true;      
+        //runInEditMode = true;      
         m_pos = m_normal.transform.position;
         m_posVisable = new Vector3(m_pos.x, m_pos.y + 10000, m_pos.z);
         Toggle.onValueChanged.AddListener(OnToggle);        

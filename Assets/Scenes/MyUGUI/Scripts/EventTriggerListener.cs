@@ -13,11 +13,14 @@ public class EventTriggerListener : UnityEngine.EventSystems.EventTrigger
     public VoidDelegate onUp;
     public VoidDelegate onSelect;
     public VoidDelegate onUpdateSelect;
+    public VoidDelegate onBeginDrag;
+    public VoidDelegate onDrag;
+    public VoidDelegate onEndDrag;
 
     static public EventTriggerListener Get(GameObject go)
     {
         EventTriggerListener listener = go.GetComponent<EventTriggerListener>();
-        if(listener == null)
+        if (listener == null)
         {
             listener = go.AddComponent<EventTriggerListener>();
         }
@@ -37,6 +40,7 @@ public class EventTriggerListener : UnityEngine.EventSystems.EventTrigger
         //base.OnPointerDown(eventData);
         if (onDown != null)
             onDown(gameObject);
+
     }
 
     public override void OnPointerEnter(PointerEventData eventData)
@@ -49,7 +53,7 @@ public class EventTriggerListener : UnityEngine.EventSystems.EventTrigger
     public override void OnPointerExit(PointerEventData eventData)
     {
         //base.OnPointerExit(eventData);
-        if (onExit != null )
+        if (onExit != null)
             onExit(gameObject);
     }
 
@@ -73,4 +77,32 @@ public class EventTriggerListener : UnityEngine.EventSystems.EventTrigger
         if (onUpdateSelect != null)
             onUpdateSelect(gameObject);
     }
+
+    public override void OnBeginDrag(PointerEventData eventData)
+    {
+        //base.OnBeginDrag(eventData);
+        if(onBeginDrag !=null )
+        {
+            onBeginDrag(gameObject);
+        }
+    }
+
+    public override void OnDrag(PointerEventData eventData)
+    {
+        //base.OnDrag(eventData);
+        if(onDrag != null )
+        {
+            onDrag(gameObject);
+        }
+    }
+
+    public override void OnEndDrag(PointerEventData eventData)
+    {
+        //base.OnEndDrag(eventData);
+        if(onEndDrag != null)
+        {
+            onEndDrag(gameObject);
+        }
+    }
+
 }
