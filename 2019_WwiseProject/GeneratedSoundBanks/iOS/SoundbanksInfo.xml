@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\Code\Unity\2019\2019_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Code\Unity\2019\2019_WwiseProject\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Code\Unity\2019\2019_WwiseProject\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Code\Unity\2019\2019_WwiseProject\GeneratedSoundBanks\iOS</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1512160363" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Djemb_SoundBank</ObjectPath>
+			<ShortName>Djemb_SoundBank</ShortName>
+			<Path>Djemb_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="375323314" Name="Play_DjDa1" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDa1"/>
+				<Event Id="375323313" Name="Play_DjDa2" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDa2"/>
+				<Event Id="375323385" Name="Play_DjDaZ" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDaZ"/>
+				<Event Id="4056936619" Name="Play_DjDong1" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDong1"/>
+				<Event Id="4056936616" Name="Play_DjDong2" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDong2"/>
+				<Event Id="4056936672" Name="Play_DjDongZ" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDongZ"/>
+				<Event Id="173991854" Name="Play_DjDu1" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDu1"/>
+				<Event Id="173991853" Name="Play_DjDu2" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDu2"/>
+				<Event Id="173991909" Name="Play_DjDuZ" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDuZ"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="149652791" Language="SFX">
+					<ShortName>Djembe2.wav</ShortName>
+					<Path>SFX\Djembe2_10C4C929.wem</Path>
+				</File>
+				<File Id="155687437" Language="SFX">
+					<ShortName>Djembe8.wav</ShortName>
+					<Path>SFX\Djembe8_10C4C929.wem</Path>
+				</File>
+				<File Id="265827920" Language="SFX">
+					<ShortName>Djembe9.wav</ShortName>
+					<Path>SFX\Djembe9_10C4C929.wem</Path>
+				</File>
+				<File Id="269390980" Language="SFX">
+					<ShortName>Djembe5.wav</ShortName>
+					<Path>SFX\Djembe5_10C4C929.wem</Path>
+				</File>
+				<File Id="445337960" Language="SFX">
+					<ShortName>Djembe3.wav</ShortName>
+					<Path>SFX\Djembe3_10C4C929.wem</Path>
+				</File>
+				<File Id="734133813" Language="SFX">
+					<ShortName>Djembe4.wav</ShortName>
+					<Path>SFX\Djembe4_10C4C929.wem</Path>
+				</File>
+				<File Id="763532204" Language="SFX">
+					<ShortName>Djembe1.wav</ShortName>
+					<Path>SFX\Djembe1_10C4C929.wem</Path>
+				</File>
+				<File Id="828080598" Language="SFX">
+					<ShortName>Djembe6.wav</ShortName>
+					<Path>SFX\Djembe6_10C4C929.wem</Path>
+				</File>
+				<File Id="924174758" Language="SFX">
+					<ShortName>Djembe7.wav</ShortName>
+					<Path>SFX\Djembe7_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2454045173" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI_SoundBank</ObjectPath>
+			<ShortName>UI_SoundBank</ShortName>
+			<Path>UI_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="762492780" Name="Play_Archer_Atk" ObjectPath="\Events\Default Work Unit\UI\Play_Archer_Atk"/>
+				<Event Id="2193371635" Name="Play_Btn_Click" ObjectPath="\Events\Default Work Unit\UI\Play_Btn_Click"/>
+				<Event Id="375323314" Name="Play_DjDa1" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDa1"/>
+				<Event Id="375323313" Name="Play_DjDa2" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDa2"/>
+				<Event Id="375323385" Name="Play_DjDaZ" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDaZ"/>
+				<Event Id="4056936619" Name="Play_DjDong1" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDong1"/>
+				<Event Id="4056936616" Name="Play_DjDong2" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDong2"/>
+				<Event Id="4056936672" Name="Play_DjDongZ" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDongZ"/>
+				<Event Id="173991854" Name="Play_DjDu1" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDu1"/>
+				<Event Id="173991853" Name="Play_DjDu2" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDu2"/>
+				<Event Id="173991909" Name="Play_DjDuZ" ObjectPath="\Events\Default Work Unit\Djemb\Play_DjDuZ"/>
+				<Event Id="1253138401" Name="Play_UI_Skillup" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Skillup"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="44543566" Language="SFX">
+					<ShortName>UI_Skillup.wav</ShortName>
+					<Path>SFX\UI_Skillup_10C4C929.wem</Path>
+				</File>
+				<File Id="149652791" Language="SFX">
+					<ShortName>Djembe2.wav</ShortName>
+					<Path>SFX\Djembe2_10C4C929.wem</Path>
+				</File>
+				<File Id="155687437" Language="SFX">
+					<ShortName>Djembe8.wav</ShortName>
+					<Path>SFX\Djembe8_10C4C929.wem</Path>
+				</File>
+				<File Id="197947594" Language="SFX">
+					<ShortName>Btn_Click.wav</ShortName>
+					<Path>SFX\Btn_Click_10C4C929.wem</Path>
+				</File>
+				<File Id="265827920" Language="SFX">
+					<ShortName>Djembe9.wav</ShortName>
+					<Path>SFX\Djembe9_10C4C929.wem</Path>
+				</File>
+				<File Id="269390980" Language="SFX">
+					<ShortName>Djembe5.wav</ShortName>
+					<Path>SFX\Djembe5_10C4C929.wem</Path>
+				</File>
+				<File Id="445337960" Language="SFX">
+					<ShortName>Djembe3.wav</ShortName>
+					<Path>SFX\Djembe3_10C4C929.wem</Path>
+				</File>
+				<File Id="734133813" Language="SFX">
+					<ShortName>Djembe4.wav</ShortName>
+					<Path>SFX\Djembe4_10C4C929.wem</Path>
+				</File>
+				<File Id="763532204" Language="SFX">
+					<ShortName>Djembe1.wav</ShortName>
+					<Path>SFX\Djembe1_10C4C929.wem</Path>
+				</File>
+				<File Id="828080598" Language="SFX">
+					<ShortName>Djembe6.wav</ShortName>
+					<Path>SFX\Djembe6_10C4C929.wem</Path>
+				</File>
+				<File Id="888555335" Language="SFX">
+					<ShortName>Archer_Atk.wav</ShortName>
+					<Path>SFX\Archer_Atk_10C4C929.wem</Path>
+				</File>
+				<File Id="924174758" Language="SFX">
+					<ShortName>Djembe7.wav</ShortName>
+					<Path>SFX\Djembe7_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

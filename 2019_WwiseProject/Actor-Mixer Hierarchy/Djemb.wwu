@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}" SchemaVersion="94" RootDocumentID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}">
+	<AudioObjects>
+		<WorkUnit Name="Djemb" ID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}" OwnerID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Djembe" ID="{FC02DF98-6322-42AA-BBB8-074BA4B1D69E}" ShortID="388181967">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe" ID="{06756763-2F10-4A56-BEDE-DCE7FEA6DD5A}" ShortID="52092484">
+							<Language>SFX</Language>
+							<AudioFile>Djembe.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe" ID="{06756763-2F10-4A56-BEDE-DCE7FEA6DD5A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDu1" ID="{8355A68D-44E7-496E-85DB-A6591507A2BB}" ShortID="488918791">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe1" ID="{51CCBD93-EA50-4C9E-8F73-30EB681F3654}" ShortID="763532204">
+							<Language>SFX</Language>
+							<AudioFile>Djembe1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe1" ID="{51CCBD93-EA50-4C9E-8F73-30EB681F3654}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDongZ" ID="{8B79C5AD-6E29-46FB-8E23-D7760F4B54C4}" ShortID="789358355">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe2" ID="{4FF326CF-B716-4F99-BEB5-7EC31FCBC433}" ShortID="149652791">
+							<Language>SFX</Language>
+							<AudioFile>Djembe2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe2" ID="{4FF326CF-B716-4F99-BEB5-7EC31FCBC433}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDong1" ID="{4B351269-61BC-4B3A-AD43-54100792A76B}" ShortID="889197300">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe3" ID="{C0EB291B-2EBD-4323-A26A-B6E60D6300B8}" ShortID="445337960">
+							<Language>SFX</Language>
+							<AudioFile>Djembe3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe3" ID="{C0EB291B-2EBD-4323-A26A-B6E60D6300B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDuZ" ID="{581A35CF-FF00-4CD0-BF64-9B1242A48A58}" ShortID="1041649249">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe4" ID="{7AEDAE9B-9BBD-4070-A031-CF562EB82A6B}" ShortID="734133813">
+							<Language>SFX</Language>
+							<AudioFile>Djembe4.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe4" ID="{7AEDAE9B-9BBD-4070-A031-CF562EB82A6B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDong2" ID="{4CC2F636-75FA-4692-9263-8547CDB8CCDF}" ShortID="1051180695">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe5" ID="{B508EB10-B13E-43BA-9110-F1919EBBCF41}" ShortID="269390980">
+							<Language>SFX</Language>
+							<AudioFile>Djembe5.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe5" ID="{B508EB10-B13E-43BA-9110-F1919EBBCF41}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDu2" ID="{FDD9184F-6D34-48ED-A9B2-E67BEFA3B292}" ShortID="912351438">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe6" ID="{E1FDC487-DF55-41B8-BA6F-4B8A4AEA6166}" ShortID="828080598">
+							<Language>SFX</Language>
+							<AudioFile>Djembe6.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe6" ID="{E1FDC487-DF55-41B8-BA6F-4B8A4AEA6166}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDa1" ID="{FDC6DDFF-0AC8-4F03-AD5D-0F2CE023B00C}" ShortID="843510179">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe7" ID="{66D61A4E-EB5F-4B09-8D4E-BAD8B86B7482}" ShortID="924174758">
+							<Language>SFX</Language>
+							<AudioFile>Djembe7.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe7" ID="{66D61A4E-EB5F-4B09-8D4E-BAD8B86B7482}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDa2" ID="{F5E4FFBD-C4DF-49A3-9307-1B5BA2705331}" ShortID="98006471">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe8" ID="{675ACB89-6A1D-4635-88DB-3D89ACB63661}" ShortID="155687437">
+							<Language>SFX</Language>
+							<AudioFile>Djembe8.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe8" ID="{675ACB89-6A1D-4635-88DB-3D89ACB63661}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DjDaZ" ID="{25D84227-4A7A-4A92-AF8A-F092292F99F1}" ShortID="681717155">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Djembe9" ID="{1D4CF6E3-0C04-404B-A7CA-DDD9C2604267}" ShortID="265827920">
+							<Language>SFX</Language>
+							<AudioFile>Djembe9.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Djembe9" ID="{1D4CF6E3-0C04-404B-A7CA-DDD9C2604267}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

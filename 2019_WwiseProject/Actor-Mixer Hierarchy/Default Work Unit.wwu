@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Btn_Click" ID="{61319F65-4474-48DF-9E2F-263ECE82854D}" ShortID="57048150">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Btn_Click" ID="{5DEBC289-9EE9-4D0B-91CF-7EEE94BDA39F}" ShortID="197947594">
+							<Language>SFX</Language>
+							<AudioFile>Btn_Click.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Btn_Click" ID="{5DEBC289-9EE9-4D0B-91CF-7EEE94BDA39F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UI_Skillup" ID="{AA250B84-4781-4DCC-A79B-4C93CABF6BBE}" ShortID="186472101">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UI_Skillup" ID="{EC19EE6F-0932-4813-9679-D9E07C63672A}" ShortID="44543566">
+							<Language>SFX</Language>
+							<AudioFile>UI_Skillup.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UI_Skillup" ID="{EC19EE6F-0932-4813-9679-D9E07C63672A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Archer_Atk" ID="{6D8440BF-F446-41E1-BE50-DC2FF5414AC7}" ShortID="266964826">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Archer_Atk" ID="{7AC7A110-2D4D-4712-B00D-75B04FF4F546}" ShortID="888555335">
+							<Language>SFX</Language>
+							<AudioFile>Archer_Atk.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Archer_Atk" ID="{7AC7A110-2D4D-4712-B00D-75B04FF4F546}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<WorkUnit Name="Djemb" ID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F406FC3B-7A51-40B8-B4CD-38436C504420}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{F406FC3B-7A51-40B8-B4CD-38436C504420}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Btn_Click" ID="{5DF71629-3F92-4EEC-844B-9C401C7D1DE0}" ShortID="528902703">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52968D1B-089B-4CBF-8DE5-AAB5087C7DC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Btn_Click" ID="{0DAB69FB-21A6-49AB-89A1-DA1BD56BDFC7}" ShortID="244756560">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52749F38-3BC5-49CA-A36F-0A98F3325BC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Btn_Click" ID="{91071895-DD87-48B8-8828-1F3309F9C21E}" ShortID="144463075">
+									<Language>SFX</Language>
+									<AudioFile>Btn_Click.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{AF1CE209-1D21-49B5-A32A-DF58FE9AA1A5}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{F279D4ED-EA33-4458-A049-BE9E12ED91BE}">
+									<ClipList>
+										<MusicClip Name="Btn_Click" ID="{673FBE23-7890-4469-AFBB-86065D044851}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="54.96875"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Btn_Click" ID="{91071895-DD87-48B8-8828-1F3309F9C21E}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{246DE293-6214-40DA-BF4C-51C803344CE1}"/>
+						<MusicCue Name="Exit Cue" ID="{98D8A673-801A-412B-A944-040808F7422A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

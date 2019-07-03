@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="3585419719">
+	<Platform GUID="{35F5E327-F174-429D-ACAC-21975A42C044}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Djemb" Hash="2986511742" Timestamp="1558600749"/>
+				<File Name="Djemb_SoundBank" Hash="2711511029" Timestamp="1561446775"/>
+				<File Name="Init" Hash="3323927726" Timestamp="1557980256"/>
+				<File Name="UI_SoundBank" Hash="1402284054" Timestamp="1561446775"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3024660789" Timestamp="1561446775"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{7A609C91-3AC7-4515-8012-D0BCA655B377}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Djemb" Hash="2986511742" Timestamp="1558600748"/>
+				<File Name="Djemb_SoundBank" Hash="2711511029" Timestamp="1561446772"/>
+				<File Name="Init" Hash="842166990" Timestamp="1557980256"/>
+				<File Name="UI_SoundBank" Hash="1402284054" Timestamp="1561446772"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="777933059" Timestamp="1561446772"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{F0072D00-461A-4831-B858-4C6E63B25728}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Djemb" Hash="2986511742" Timestamp="1558600748"/>
+				<File Name="Djemb_SoundBank" Hash="2711511029" Timestamp="1561446773"/>
+				<File Name="Init" Hash="179806732" Timestamp="1557980256"/>
+				<File Name="UI_SoundBank" Hash="1402284054" Timestamp="1561446773"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2575245441" Timestamp="1561446773"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{F3DBFD2F-22F5-48D6-A487-03509A67E875}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Djemb" Hash="2986511742" Timestamp="1558600749"/>
+				<File Name="Djemb_SoundBank" Hash="2711511029" Timestamp="1561446774"/>
+				<File Name="Init" Hash="1718946688" Timestamp="1557980256"/>
+				<File Name="UI_SoundBank" Hash="1402284054" Timestamp="1561446774"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2294371911" Timestamp="1561446774"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

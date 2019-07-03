@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47BA27EF-3368-48F4-9C9B-0E48BF933035}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{47BA27EF-3368-48F4-9C9B-0E48BF933035}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI_SoundBank" ID="{707B8461-1315-4A9B-A2BD-091E90FB1F29}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Btn_Click" ID="{E739479A-C5E3-42B8-9CF8-ED588B1FC10F}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI" ID="{E08290B4-B34A-444C-9F7E-593DFBE86F5D}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Archer_Atk" ID="{7617F659-B1F1-4565-9DCD-D83C63E33886}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_UI_Skillup" ID="{3F74C13C-1EC7-4AAA-B425-64EA6EB00C0D}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Djemb_SoundBank" ID="{6218A2C2-0FE7-4C68-BB86-143ABEEEB6E8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_DjDong2" ID="{4BD6E63D-57A7-405A-A0B8-44FBD52EC2C5}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDa1" ID="{77868850-1906-4186-A3DB-0A50BF21AA70}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Djemb" ID="{ECFD574A-9E11-4675-A6C3-0A7A96B33778}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDongZ" ID="{3F1F5798-D694-4788-9B67-390C1B835ECF}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDaZ" ID="{88437BFD-0726-49D5-B502-FB2CDFC3CE2D}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDong1" ID="{7FC12E8D-D130-4A01-95E9-D8AC45E9D9E1}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDa2" ID="{660D8CCC-19EF-4ACC-A8AB-E693AE547193}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDuZ" ID="{877AC607-3C5D-4D30-879A-64AD8B6F5E6A}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDu2" ID="{6E07BDCF-8458-4DF0-818A-E3EBC4414433}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DjDu1" ID="{7087500C-7F28-4F54-8C7B-76614D65BEF5}" WorkUnitID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

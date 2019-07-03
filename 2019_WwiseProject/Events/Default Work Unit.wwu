@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{40AA80E5-6960-41F0-97CB-63C8A8AAA821}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{E08290B4-B34A-444C-9F7E-593DFBE86F5D}" ShortID="929940495">
+					<ChildrenList>
+						<Event Name="Play_Btn_Click" ID="{E739479A-C5E3-42B8-9CF8-ED588B1FC10F}">
+							<ChildrenList>
+								<Action Name="" ID="{89B3BC57-B9F8-4B87-9FD3-1AA99B3BFB57}" ShortID="944212520">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Btn_Click" ID="{61319F65-4474-48DF-9E2F-263ECE82854D}" WorkUnitID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Skillup" ID="{3F74C13C-1EC7-4AAA-B425-64EA6EB00C0D}">
+							<ChildrenList>
+								<Action Name="" ID="{C6DA97E3-8470-4239-BF3B-6EB0AE34DFCE}" ShortID="625068021">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Skillup" ID="{AA250B84-4781-4DCC-A79B-4C93CABF6BBE}" WorkUnitID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Archer_Atk" ID="{7617F659-B1F1-4565-9DCD-D83C63E33886}">
+							<ChildrenList>
+								<Action Name="" ID="{9411B1D7-1C62-45D8-8FB2-AEC6555AD84E}" ShortID="711935419">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Archer_Atk" ID="{6D8440BF-F446-41E1-BE50-DC2FF5414AC7}" WorkUnitID="{2AD5FB35-0DBE-4939-8EE2-8A708F05883D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Djemb" ID="{ECFD574A-9E11-4675-A6C3-0A7A96B33778}" ShortID="109234298">
+					<ChildrenList>
+						<Event Name="Play_DjDongZ" ID="{3F1F5798-D694-4788-9B67-390C1B835ECF}">
+							<ChildrenList>
+								<Action Name="" ID="{D23490B2-A808-44E4-8718-8891149EEC8D}" ShortID="623020749">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDongZ" ID="{8B79C5AD-6E29-46FB-8E23-D7760F4B54C4}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDong1" ID="{7FC12E8D-D130-4A01-95E9-D8AC45E9D9E1}">
+							<ChildrenList>
+								<Action Name="" ID="{46B370C6-97A7-457D-93DE-E15A847D3D4B}" ShortID="85882798">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDong1" ID="{4B351269-61BC-4B3A-AD43-54100792A76B}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDong2" ID="{4BD6E63D-57A7-405A-A0B8-44FBD52EC2C5}">
+							<ChildrenList>
+								<Action Name="" ID="{F5ADB106-73C0-43DD-ABD6-2689A79344C3}" ShortID="1013401940">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDong2" ID="{4CC2F636-75FA-4692-9263-8547CDB8CCDF}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDuZ" ID="{877AC607-3C5D-4D30-879A-64AD8B6F5E6A}">
+							<ChildrenList>
+								<Action Name="" ID="{15EA34AE-3983-47F8-BD0B-57D7DFA660A9}" ShortID="964275830">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDuZ" ID="{581A35CF-FF00-4CD0-BF64-9B1242A48A58}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDu1" ID="{7087500C-7F28-4F54-8C7B-76614D65BEF5}">
+							<ChildrenList>
+								<Action Name="" ID="{1BA98B9F-8ACA-4610-8A23-D9BB2A2EA147}" ShortID="120660586">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDu1" ID="{8355A68D-44E7-496E-85DB-A6591507A2BB}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDu2" ID="{6E07BDCF-8458-4DF0-818A-E3EBC4414433}">
+							<ChildrenList>
+								<Action Name="" ID="{A83A85C1-DC01-4AEA-BD46-A9A89A6E63BB}" ShortID="962775100">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDu2" ID="{FDD9184F-6D34-48ED-A9B2-E67BEFA3B292}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDa2" ID="{660D8CCC-19EF-4ACC-A8AB-E693AE547193}">
+							<ChildrenList>
+								<Action Name="" ID="{ABDEF2EA-32C0-41E9-BEC8-D5AE4EF69C90}" ShortID="297363204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDa2" ID="{F5E4FFBD-C4DF-49A3-9307-1B5BA2705331}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDaZ" ID="{88437BFD-0726-49D5-B502-FB2CDFC3CE2D}">
+							<ChildrenList>
+								<Action Name="" ID="{3BE38220-F539-459F-B6CE-54258391C010}" ShortID="815247435">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDaZ" ID="{25D84227-4A7A-4A92-AF8A-F092292F99F1}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DjDa1" ID="{77868850-1906-4186-A3DB-0A50BF21AA70}">
+							<ChildrenList>
+								<Action Name="" ID="{DD9BF13B-6FBC-4ABE-A91B-AAA88BB70B2A}" ShortID="1050128185">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DjDa1" ID="{FDC6DDFF-0AC8-4F03-AD5D-0F2CE023B00C}" WorkUnitID="{106DBCFD-AB70-4A55-8C54-79EA90541F67}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
